@@ -4,6 +4,7 @@
   "description": "Zoom Clone using NodeJS, WebRTC and Websockets",
   "license": "MIT",
   "scripts": {
+    "start": "node src/server.js",
     "dev": "nodemon"
   },
   "engines": {
@@ -20,6 +21,7 @@
     "@socket.io/admin-ui": "^0.2.0",
     "express": "^4.17.3",
     "localtunnel": "^2.0.2",
+    "procfile": "^0.1.1",
     "pug": "^3.0.2",
     "socket.io": "^4.4.1",
     "webrtc": "^1.14.1",
