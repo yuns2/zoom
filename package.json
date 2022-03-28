@@ -4,7 +4,9 @@
   "description": "Zoom Clone using NodeJS, WebRTC and Websockets",
   "license": "MIT",
   "scripts": {
-    "start": "node server.js",
+    "start": "node build/server.js",
+    "build": "npm run build:server",
+    "build:server": "babel src -d build",
     "dev": "nodemon"
   },
   "engines": {
