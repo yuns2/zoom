@@ -1,12 +1,17 @@
 "use strict";
 
-var _http = _interopRequireDefault(require("http"));
+// var _http = _interopRequireDefault(require("http"));
 
-var _socket = _interopRequireDefault(require("socket.io"));
+// var _socket = _interopRequireDefault(require("socket.io"));
 
-var _express = _interopRequireDefault(require("express"));
+// var _express = _interopRequireDefault(require("express"));
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+// function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+import _http from "http";
+import _socket from "socket.io";
+import _express from "express";
+
 
 var app = (0, _express["default"])();
 app.set("view engine", "pug");
