@@ -42,4 +42,4 @@ var handleListen = function handleListen() {
   return console.log("Listening on http://localhost:3000");
 };
 
-httpServer.listen(3000, handleListen);
+httpServer.listen(process.env.PORT || 3000, handleListen);
